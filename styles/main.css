@@ -1,0 +1,9 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 50%;    
+}
+
+.submit {
+    margin-top: 0.5em;
+}
