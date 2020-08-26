@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Journal</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <header></header>
+    <header><h1>Daily Journal</h1></header>
     <main>
         <section>
             <h1>Once upon a time...</h1>
@@ -20,15 +20,15 @@
                         <input type="date" name="journalDate" id="journalDate">
                     </fieldset>
                     <fieldset>
-                        <label for="journalDate">Date of Entry</label>
+                        <label for="conceptsCovered">Concepts Covered</label>
                         <input type="text" name="conceptsCovered" id="conceptsCovered">
                     </fieldset>
                     <fieldset>
-                        <label for="journalDate">Date of Entry</label>
+                        <label for="journalEntry">Journal Entry</label>
                         <input type="text" name="journalEntry" id="journalEntry">
                     </fieldset>
                     <fieldset>
-                        <label for="journalDate">Date of Entry</label>
+                        <label for="mood">Mood for the Day</label>
                         <select name="mood" id="mood">
                             <option value="happy">Happy</option>
                             <option value="sad">Sad</option>
@@ -38,7 +38,8 @@
                             <option value="kingArthur">King Arthur</option>
                             <option value="ulrichvonlichtenstein">Ulrich von Lichtenstein</option>
                         </select>
-                    </fieldset>
+                    </fieldset>                    
+                    <input type="submit" class="submit" value="Record Journal Entry">                    
                 </form>
             </article>
         </section>
