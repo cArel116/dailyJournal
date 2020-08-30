@@ -7,6 +7,7 @@
  */
 
 // This is the original data.
+
 const journal = [
     {
         id: 1,
@@ -15,7 +16,7 @@ const journal = [
         entry: "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
         mood: "Ok"
     },
-    
+
     {
         id: 2,
         date: "8/25/2020",
