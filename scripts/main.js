@@ -1,0 +1,1 @@
+console.log("THIS is the day that the LORD has made... I will REJOICE and be glad in Him!");
